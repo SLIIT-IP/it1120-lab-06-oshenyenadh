@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+import static java.lang.Math.sqrt;
+
+public class IT24101268
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        double num = sc.nextDouble();
+        double sqr_num = num*num;
+        double sqr_rt_num = sqrt(num);
+        System.out.println("\nThe square of "+num+" is : "+sqr_num);
+        System.out.println("The square root of "+num+" is : "+sqr_rt_num);
+    }
+}
